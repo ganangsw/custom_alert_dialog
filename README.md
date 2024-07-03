@@ -1,26 +1,36 @@
-# CustomAlert Flutter
+# CustomAlert Example App
 
-## Overview
-CustomAlert is a Flutter package that provides functions to display alert dialogs with different types and configurations, such as success, error, warning, info, confirm, and loading alerts.
-
-## Features
- - Display alerts with icons corresponding to the alert type.
- - Customize text appearance, background color, and text color as needed.
- - Provide options for confirmation, cancellation, and additional buttons.
- - Dialog can be dismissed by tapping outside of it (optional).
- - Suitable for Flutter applications needing customizable alert dialogs.
+This Flutter application demonstrates the usage of the `CustomAlert` class to display various types of alerts.
 
 ## Demo
 <br>
 <img src="https://raw.githubusercontent.com/ganangsw/custom_alert_dialog/main/screenshots/demo.gif?raw=true" alt="CustomAlert Demo">
-<p align="center"><strong><em>CustomAlert Demo</em></strong></p>
 
-## Getting Started
+## Overview
 
-Import it in your dart code, you can use:
+The `CustomAlert` class provides methods to show alert dialogs with different types such as success, error, warning, info, confirm, and loading alerts. Each alert type can be customized with specific styles and behaviors.
+
+## Features
+
+- **Multiple Alert Types**: Choose from success, error, warning, info, confirm, and loading alerts.
+- **Customizable Appearance**: Customize the alert's title, message, background color, text color, and icon.
+- **User Interaction**: Handle user actions with optional callbacks for confirm and cancel actions.
+- **Accessibility**: Ensure accessibility with semantic labels and dismissible options.
+- **Ease of Integration**: Easily integrate into any Flutter application for displaying alerts.
+
+## Usage
+
+To use `CustomAlert`, import the necessary libraries and call the `show` method with appropriate parameters based on the type of alert you want to display.
+
+### Getting Started
+
+Below are examples of how to use `CustomAlert` in your Flutter application:
+
+#### Import CustomAlert
 
 ```dart
-import 'package:your_package_name/custom_alert.dart';
+import 'package:flutter/material.dart';
+import 'custom_alert.dart';  // Replace with your actual import path
 ```
 
 Here are some examples demonstrating how to use CustomAlert in your Flutter application:
@@ -74,14 +84,3 @@ CustomAlert.show(
   backgroundColor: Colors.redAccent,
 );
 ```
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
