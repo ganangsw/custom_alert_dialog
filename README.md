@@ -12,7 +12,7 @@ CustomAlert is a Flutter package that provides functions to display alert dialog
 
 ## Demo
 <br>
-<img src="https://raw.githubusercontent.com/ganangsw/custom_alert_dialog/main/screenshots/demo.gif?raw=true" alt="CustomAlert Demo" width="100%">
+<img src="https://raw.githubusercontent.com/ganangsw/custom_alert_dialog/main/screenshots/demo.gif?raw=true" alt="CustomAlert Demo">
 <p align="center"><strong><em>CustomAlert Demo</em></strong></p>
 
 ## Getting Started
