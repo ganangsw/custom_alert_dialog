@@ -10,6 +10,11 @@ CustomAlert is a Flutter package that provides functions to display alert dialog
  - Dialog can be dismissed by tapping outside of it (optional).
  - Suitable for Flutter applications needing customizable alert dialogs.
 
+## Demo
+<br>
+<img src="https://raw.githubusercontent.com/ganangsw/custom_alert_dialog/main/screenshots/demo.gif?raw=true" alt="CustomAlert Demo" width="100%">
+<p align="center"><strong><em>CustomAlert Demo</em></strong></p>
+
 ## Getting Started
 
 Import it in your dart code, you can use:
